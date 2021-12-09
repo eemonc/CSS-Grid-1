@@ -1,0 +1,84 @@
+<!-- Hello World!! This is challange 8 -->
+    <!-- First of all I have created a body using div and inside it is 6 container  -->
+    <div class="body">
+      <!-- First container -->
+      <div class="nested">
+        <div>1</div>
+      </div>
+      <!-- Second Container -->
+      <div class="nested">
+        <!-- Inside Second container I have nested 2 box -->
+        <div>2</div>
+        <div>3</div>
+      </div>
+      <!-- Third Container -->
+      <div class="nested">
+        <!-- Inside Third container I have nested 3 box -->
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+      </div>
+      <!-- Fourth Container -->
+      <div class="nested">
+        <!-- Inside Fourth container I have nested 4 box -->
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+      </div>
+      <!-- Fifth Container -->
+      <div class="nested">
+        <!-- Inside Fifth container I have nested 6 box -->
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+        <div>16</div>
+      </div>
+      <!-- Sixth Container -->
+      <div class="nested">
+        <!-- Inside Sixth container I have nested 12 box -->
+        <div>17</div>
+        <div>18</div>
+        <div>19</div>
+        <div>20</div>
+        <div>21</div>
+        <div>22</div>
+        <div>23</div>
+        <div>24</div>
+        <div>25</div>
+        <div>26</div>
+        <div>27</div>
+        <div>28</div>
+      </div>
+    </div>
+    <!-- please also visit my css code -->
+    <!-- Challenge #8 Completed -->
+    <!-- Thank you so much Aman Bhaiya and Apni Kaksha team for this beautiful challenge. Learned so much things. Continue the Good work. we all very much support apni kaksha team. Apni kaksha JINDABAAD-->
+=========================================
+
+
+
+
+
+/* First of all changing body display to grid so that I can use Grid's functions */
+.body {
+  display: grid;
+  /* Here aligning 6 containers in row and dividing each in equal fraction of space. */
+  grid-template-columns: repeat(6, 1fr);
+  /* giving space */
+  grid-gap: 1%;
+  /* Defining the body height */
+  height: 7in;
+}
+/* Assigning each nested container a background-color */
+.nested div {
+  background-color: aqua;
+}
+/* Basically in this section changing each nested container display from default to grid and giving margin-gap */
+.nested {
+  display: grid;
+  grid-gap: 1%;
+}
+/* CSS of Challenge #8 Completed */
